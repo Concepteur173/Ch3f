@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recettes de Cuisine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        header {
+            background-color: #ff7043;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .recette {
+            background: white;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    🍽️ Mes Recettes de Cuisine
+</header>
+
+<div class="recette">
+    <h2>🍕 Pizza Maison</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg" alt="Pizza Maison">
+    <p>Ingrédients : Farine, tomate, fromage, levure...</p>
+</div>
+
+<div class="recette">
+    <h2>🥞 Crêpes</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Crêpe_bretonne.JPG" alt="Crêpes">
+    <p>Ingrédients : Farine, lait, œufs, sucre...</p>
+</div>
+
+<div class="recette">
+    <h2>🍝 Spaghetti Bolognaise</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Spaghetti_Bolognese_on_a_white_plate_%28cropped%29.jpg" alt="Spaghetti Bolognaise">
+    <p>Ingrédients : Spaghetti, viande hachée, sauce tomate...</p>
+</div>
+
+<div class="recette">
+    <h2>🍰 Tarte aux Fraises</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Tarte_aux_fraises.jpg" alt="Tarte aux Fraises">
+    <p>Ingrédients : Pâte sablée, crème pâtissière, fraises...</p>
+</div>
+
+</body>
+</html>
